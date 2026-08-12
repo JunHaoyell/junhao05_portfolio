@@ -1,0 +1,41 @@
+.experience-list {
+  border-top: 1px solid #cfd1ca;
+}
+
+.experience-list article {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 30px;
+  padding: 28px 0 32px;
+  border-bottom: 1px solid #cfd1ca;
+}
+
+.experience-date {
+  margin: 3px 0 0;
+  color: #61706a;
+  font: 11px 'DM Mono', monospace;
+}
+
+.experience-list h3 {
+  margin: 0;
+  font-size: 21px;
+  letter-spacing: -.04em;
+}
+
+.experience-company {
+  margin: 7px 0 14px;
+  color: #61706a;
+  font-size: 13px;
+}
+
+.experience-list article div > p:last-child {
+  max-width: 650px;
+  margin: 0;
+  color: #61706a;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+@media (max-width: 700px) {
+  .experience-list article { grid-template-columns: 1fr; gap: 13px; }
+}

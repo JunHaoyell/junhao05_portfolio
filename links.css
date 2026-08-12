@@ -1,0 +1,4 @@
+.card-live-link { color: inherit; text-decoration: none; }
+.card-live-link em { position: absolute; top: 14px; right: 14px; padding: 8px 10px; background: rgba(255,255,255,.92); color: #101113; font: 500 9px 'DM Mono', monospace; font-style: normal; letter-spacing: .03em; opacity: 0; transition: opacity .2s ease; }
+.card-live-link:hover em, .card-live-link:focus-visible em { opacity: 1; }
+@media (max-width: 700px) { .card-live-link em { opacity: 1; } }

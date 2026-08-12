@@ -1,0 +1,6 @@
+/* Cool editorial palette: soft blue-gray, deep ink, and a confident cobalt accent. */
+body { background: #f7f8fc; color: #182039; }
+.nav { background: #f7f8fc; border-color: #dfe3ec; }.monogram,.nav-contact { color: #182039; }.monogram span,.nav-contact span,.contact a span { color: #3246f5; }.nav-contact { border-color: #3246f5; }nav a { color: #68708a; }
+.overline,.intro-bottom span { color: #737b91; }.intro h1 em,.statement h2 em,.contact h2 em { color: #3246f5; }.intro-note i { background: #3246f5; }.intro-note p { color: #4f5870; }.intro-bottom,.case-meta,footer { border-color: #dfe3ec; }
+.statement { background: #19234a; }.statement h2 em { color: #a9c6ff; }.statement .overline { color: #b4c1e2; }.expertise { border-color: #52628e; }.expertise span { border-color: #52628e; color: #e1e7fb; }
+.experience .section-top>p:last-child,.timeline p,.timeline span { color: #69728a; }.timeline,.timeline article { border-color: #dfe3ec; }.contact>a { color: #182039; }

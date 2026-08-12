@@ -1,0 +1,11 @@
+.experience { padding-top: 115px; }
+.experience-heading { display: grid; grid-template-columns: 1.15fr .85fr; gap: 80px; align-items: end; margin-bottom: 28px; }
+.experience-heading h2 { max-width: 610px; margin: 13px 0 0; color: #17213d; font-size: clamp(30px, 3.5vw, 47px); line-height: 1.08; letter-spacing: -.06em; }
+.experience-heading > p { max-width: 370px; margin: 0 0 3px; color: #4d5d7c; font-size: 13px; font-weight: 500; line-height: 1.7; }
+.experience-cards { display: grid; gap: 12px; }
+.experience-card { display: grid; grid-template-columns: .35fr 1fr 1.08fr; gap: 28px; padding: 25px 27px; border: 1px solid rgba(255,255,255,.72); border-radius: 17px; background: rgba(252,253,255,.6); box-shadow: 0 11px 25px rgba(48,63,129,.07), inset 0 1px rgba(255,255,255,.85); backdrop-filter: blur(19px); transition: transform .25s ease, background .25s ease; }
+.experience-card:hover { transform: translateX(5px); background: rgba(255,255,255,.8); }
+.experience-period { display: flex; gap: 14px; color: #52617e; }.experience-period > span { display: grid; place-items: center; flex: 0 0 24px; height: 24px; border-radius: 50%; background: #3147d8; color: #fff; font: 9px "DM Mono",monospace; }.experience-period p { margin: 3px 0 0; font: 10px/1.55 "DM Mono",monospace; }
+.experience-kind { margin: 1px 0 9px; color: #4c5eda; font: 10px "DM Mono",monospace; text-transform: uppercase; letter-spacing: .05em; }.experience-role h3 { margin: 0 0 7px; color: #17213d; font-size: 20px; letter-spacing: -.045em; line-height: 1.15; }.company { margin: 0; color: #586682; font-size: 12px; }.company span { color: #8791a5; }
+.experience-impact { display: flex; flex-direction: column; justify-content: space-between; }.experience-impact > p { margin: 0; color: #43516c; font-size: 12px; line-height: 1.68; font-weight: 500; }.experience-impact div { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 16px; }.experience-impact span { padding: 5px 7px; border-radius: 5px; background: rgba(229,234,248,.83); color: #465472; font: 9px "DM Mono",monospace; }
+@media(max-width:760px){.experience{padding-top:80px}.experience-heading{grid-template-columns:1fr;gap:15px;margin-bottom:20px}.experience-card{grid-template-columns:1fr;gap:16px;padding:21px}.experience-impact{gap:4px}.experience-impact div{margin-top:12px}}

@@ -1,0 +1,11 @@
+/* Accessibility polish: glass stays luminous while all text sits on readable surfaces. */
+body { color: #111a32; }
+.nav { background: rgba(251,252,255,.72); }.nav a { color: #40506d; }.nav a:hover { color: #111a32; }
+.intro h1 { color: #111a32; text-shadow: 0 1px 0 rgba(255,255,255,.45); }.intro-note { padding: 17px 18px; border-left: 2px solid #3246f5; border-radius: 0 12px 12px 0; background: rgba(255,255,255,.38); }.intro-note i { display: none; }.intro-note p { color: #2d3a57; font-weight: 500; }
+.intro-bottom { background: rgba(252,253,255,.58); }.intro-bottom span { color: #384661; font-weight: 500; }
+.library-head { background: rgba(250,252,255,.68); }.library-head h2 { color: #17213d; }.library-head>p { color: #4f5e7d; font-weight: 500; }
+.library-card { background: rgba(253,254,255,.76); }.project-index { color: #52617d; }.project-index span { color: #727f98; }.library-card h3 { color: #15203b; }.project-content>p { color: #46536d; font-weight: 500; }.project-stack span { color: #33415d; background: rgba(237,241,248,.87); }.project-open { color: #213dce; }
+.statement { background: rgba(19,32,72,.84); }.statement h2 { color: #fff; }.statement-detail>p { color: #edf1ff; font-weight: 500; }.expertise span { color: #f5f7ff; }
+.experience .section-top>p:last-child { color: #4e5d79; font-weight: 500; }.timeline article { background: rgba(255,255,255,.31); }.timeline h3 { color: #17213d; }.timeline span,.timeline p { color: #43526d; font-weight: 500; }
+.contact { background: rgba(252,253,255,.7); }.contact h2 { color: #151f3c; }.contact>a { color: #15224a; font-weight: 700; }footer { background: rgba(252,253,255,.5); color: #42516d; }
+@media (max-width:760px) { .intro-note { margin-top:4px; } }

@@ -1,0 +1,11 @@
+.work-card--accommodation .card-visual { background: #e6edf7; }
+.accommodation-ui { width: 75%; height: 69%; padding: 15px; background: #fff; border: 1px solid #b7c6da; border-radius: 7px; box-shadow: 10px 10px 0 #cbd8e9; }
+.accommodation-ui header { display: flex; align-items: center; gap: 7px; color: #304a71; font: 500 9px 'DM Mono', monospace; }
+.accommodation-ui header b { display: grid; place-items: center; width: 17px; height: 17px; background: #2c68bd; border-radius: 4px; color: #fff; }
+.accommodation-ui header i { width: 28px; height: 5px; margin-left: auto; background: #dce4ed; border-radius: 99px; }
+.accommodation-stats { display: flex; gap: 8px; margin-top: 16px; }
+.accommodation-stats b { flex: 1; padding: 9px; background: #f3f7fb; color: #24385b; font-size: 20px; line-height: 1; }
+.accommodation-stats small { display: block; margin-top: 5px; color: #7290ae; font: 8px 'DM Mono', monospace; }
+.accommodation-bars { display: flex; align-items: end; gap: 8px; height: 43px; margin-top: 11px; border-bottom: 1px solid #d5dfeb; }
+.accommodation-bars i { width: 12%; height: 32%; background: #88afe6; }
+.accommodation-bars i:nth-child(2) { height: 62%; }.accommodation-bars i:nth-child(3) { height: 42%; }.accommodation-bars i:nth-child(4) { height: 88%; background: #2c68bd; }.accommodation-bars i:nth-child(5) { height: 55%; }
