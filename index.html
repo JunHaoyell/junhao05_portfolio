@@ -1,62 +1,80 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Jun Hao — full-stack engineer, AI builder, and UI/UX designer." />
-    <title>Jun Hao — Full-stack Engineer</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="refined.css" />
-    <link rel="stylesheet" href="polish.css" />
-    <link rel="stylesheet" href="gallery.css" />
-    <link rel="stylesheet" href="palette.css" />
-    <link rel="stylesheet" href="liquid-glass.css" />
-    <link rel="stylesheet" href="readability.css" />
-    <link rel="stylesheet" href="experience-refined.css" />
-    <link rel="stylesheet" href="contact-profile.css" />
-    <link rel="stylesheet" href="social-icons.css" />
-    <link rel="stylesheet" href="about-profile.css" />
-    <link rel="stylesheet" href="scholarship-proof.css" />
-    <link rel="stylesheet" href="mobile-optimised.css" />
-  </head>
-  <body>
-    <header class="nav shell">
-      <a class="monogram" href="#top" aria-label="Jun Hao home"><img src="assets/thu-profile.png" alt="Jun Hao" /></a>
-      <nav aria-label="Main navigation"><a href="#work">Work</a><a href="#about">About</a><a href="#experience">Experience</a></nav>
-      <a class="nav-contact" href="mailto:yellminthu04@icloud.com">Contact <span>↗</span></a>
-    </header>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Jun Hao — full-stack software engineer and AI builder. Explore real projects in Next.js, Java, Spring Boot, Python and UI/UX, with source code and live demos.">
+  <title>Jun Hao — Software Engineer & AI Builder</title>
+  <link rel="icon" href="assets/thu-profile.png">
+  <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="identity" href="#main" aria-label="Jun Hao home"><img src="assets/thu-profile.png" width="38" height="38" alt=""><span>Jun Hao<small>Software Engineer</small></span></a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav">Menu <span aria-hidden="true">☰</span></button>
+    <nav id="main-nav" aria-label="Main navigation"><a href="#work">Projects</a><a href="#experience">Experience</a><a href="#skills">Skills</a><a href="#about">About</a><a class="nav-cta" href="#contact">Get in touch ↗</a></nav>
+  </header>
+  <main id="main">
+    <section class="hero container" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> Full-stack development · AI applications</p>
+        <p class="hero-intro">Hi, I’m Jun Hao.</p>
+        <h1 id="hero-title">Thoughtful interfaces.<br><span>Useful software.</span></h1>
+        <p class="hero-summary">From a restaurant’s reservation platform to AI meeting tools and employee housing systems. I connect thoughtful interfaces with the data, APIs, and workflows behind them.</p>
+        <div class="hero-actions"><a class="button primary" href="#work">Explore my projects <span aria-hidden="true">↓</span></a><a class="button secondary" href="https://github.com/JunHaoyell" target="_blank" rel="noopener noreferrer">GitHub ↗</a></div>
+        <p class="hero-caption">Java & Spring Boot · Next.js & React · Python & SQL</p>
+      </div>
+      <aside class="profile-card glass" aria-label="Profile at a glance">
+        <div class="profile-top"><img src="assets/thu-profile.png" alt="Jun Hao" width="72" height="72"><div><strong>Jun Hao</strong><span>Yell Min Thu · 杨俊浩</span></div></div>
+        <dl><div><dt>Focus</dt><dd>Full-stack engineering, AI & UI/UX</dd></div><div><dt>Experience</dt><dd>Malaysia · Singapore · Dubai</dd></div><div><dt>Languages</dt><dd>English · Burmese · Mandarin</dd></div><div><dt>Next chapter</dt><dd>University of Waikato<br><span>Future student · 2027 intake</span></dd></div></dl>
+        <a class="scholarship-mini" href="#education"><span class="award-icon" aria-hidden="true">✦</span><span><strong>NZ$15,000 scholarship offer</strong><small>International Excellence Scholarship</small></span><span aria-hidden="true">↗</span></a>
+      </aside>
+    </section>
 
-    <main id="top">
-      <section class="intro shell">
-        <p class="overline">Independent software engineer · Bangkok, Thailand</p>
-        <div class="intro-title">
-          <h1>Building digital products with <em>clarity</em> and care.</h1>
-          <div class="intro-note"><i></i><p>Full-stack engineer and AI builder. I turn complex business operations into calm, useful software.</p></div>
-        </div>
-        <div class="intro-bottom"><span>Available for selected freelance work</span><span>30+ hrs / week · $25 / hr</span><span>English · Burmese · Chinese</span></div>
+    <section id="work" class="section container">
+      <div class="section-heading"><div><p class="eyebrow">01 / Selected projects</p><h2>Built from interface to operations.</h2></div><p>Live products, clear contributions,<br>and code you can explore.</p></div>
+      <div id="featured-projects" class="project-grid featured-grid"></div>
+      <section class="project-archive" aria-labelledby="more-projects-title">
+        <div class="archive-heading"><div><h3 id="more-projects-title">More projects & design work</h3><p>AI knowledge systems, Java applications, mobile development, and Figma explorations.</p></div><span class="archive-count" data-project-count>13 projects</span></div>
+        <div id="more-projects" class="project-grid archive-grid"></div>
       </section>
+      <noscript><p>Enable JavaScript to explore the project library, or visit <a href="https://github.com/JunHaoyell">my GitHub</a> and <a href="https://yell-portifolio.vercel.app/">earlier portfolio</a>.</p></noscript>
+    </section>
 
-      <section id="work" class="work shell">
-        <div class="library-head"><div><p class="overline">Project library</p><h2>A selection of systems built to work in the real world.</h2></div><p>New work can be added at any time.<br/>The library grows with you.</p></div>
-        <div id="project-library" class="project-library" aria-live="polite"></div>
-      </section>
+    <section id="experience" class="section container">
+      <div class="section-heading"><div><p class="eyebrow">02 / Professional experience</p><h2>Hands-on work across teams.</h2></div><p>Engineering, process design,<br>and data delivery.</p></div>
+      <div class="experience-list glass">
+        <article class="experience-row"><div class="period"><time datetime="2025-01">Jan 2025</time> — <time datetime="2026-02">Feb 2026</time><span>Dubai</span></div><div><p class="eyebrow">Maybolle Business Management LLC-FZ</p><h3>Data Developer</h3><ul><li>Created Python and SQL scripts to retrieve requested data and prepare it for analysis.</li><li>Built scheduled workflows, validation and auditing processes, and internal tracking systems.</li><li>Delivered processed data to stakeholders based on business requirements.</li></ul><div class="inline-tags">Python · SQL · Data validation · Automation</div></div></article>
+        <article class="experience-row"><div class="period"><time datetime="2024-10">Oct 2024</time> — <time datetime="2025-01">Jan 2025</time><span>Singapore</span></div><div><p class="eyebrow">Real In Bound Company</p><h3>Junior Process System Administrator & Designer</h3><ul><li>Designed business-process tracking systems and implemented front-end features from design specifications.</li><li>Integrated APK automation tools and built an ID-card recognition and data-extraction system.</li></ul><div class="inline-tags">Business workflows · Front-end development · Data extraction</div></div></article>
+        <article class="experience-row"><div class="period"><time datetime="2024-05">May 2024</time> — <time datetime="2024-09">Sep 2024</time><span>Malaysia</span></div><div><p class="eyebrow">Sinisana Technologies</p><h3>Software Engineering Intern</h3><ul><li>Redesigned and developed the company website using Astro, improving how services and products were presented.</li><li>Tested React and React Native libraries; created animated company assets and brand-aligned UI components.</li><li>Contributed user research, wireframes, prototypes, and mockups for web and mobile screens.</li></ul><div class="inline-tags">Astro · React · React Native · Figma · UI/UX</div></div></article>
+      </div>
+    </section>
 
-      <section id="about" class="about-profile"><div class="shell"><div class="about-heading"><p class="overline">About me</p><p>Engineer, designer, and future Computer Science student.</p></div><div class="about-layout"><h2>I build software with the same care I bring to understanding the people who use it.</h2><div class="about-copy"><p>I’m Jun Hao, a full-stack engineer and AI builder based in Bangkok. I enjoy turning complicated processes into calm, capable products—from public-facing digital experiences to the operational systems behind a business.</p><p>My work combines front-end craft, dependable data architecture, automation, and a product mindset. I work in English, Burmese, and Chinese, and I’m comfortable collaborating across teams and borders.</p></div></div><div class="education-glass"><div class="education-mark">W</div><div><p class="overline">Education / 2027 — 2029</p><h3>Future Bachelor of Computer Science student</h3><p>University of Waikato · New Zealand</p></div><div class="scholarship"><span>NZ$15,000</span><p>Vice-Chancellor’s International Excellence Scholarship for South-East Asia</p></div><a class="scholarship-proof" href="assets/waikato-scholarship.png" target="_blank" rel="noreferrer"><img src="assets/waikato-scholarship.png" alt="University of Waikato scholarship award confirmation" /><span>View award letter ↗</span></a></div><div class="expertise"><span>Full-stack systems</span><span>AI & automation</span><span>UX & interface design</span><span>Data workflows</span></div></div></section>
+    <section id="skills" class="section container">
+      <div class="section-heading"><div><p class="eyebrow">03 / Skills & tools</p><h2>The tools behind the work.</h2></div><p>A foundation in software engineering,<br>with a product and design perspective.</p></div>
+      <div class="skills-grid">
+        <article class="skill-card glass"><span class="skill-number">01</span><h3>Front-end & interfaces</h3><p>Responsive layouts, web applications, and mobile interfaces.</p><ul class="tags"><li>HTML5</li><li>CSS</li><li>JavaScript</li><li>TypeScript</li><li>React</li><li>Next.js</li><li>Astro</li><li>Bootstrap</li><li>React Native</li><li>Tailwind CSS</li><li>shadcn UI</li></ul></article>
+        <article class="skill-card glass"><span class="skill-number">02</span><h3>Back-end & data</h3><p>APIs, relational databases, business logic, and automated workflows.</p><ul class="tags"><li>Java</li><li>Spring Boot</li><li>Spring MVC</li><li>Python</li><li>REST APIs</li><li>MySQL</li><li>PostgreSQL</li><li>Prisma</li><li>Supabase</li></ul></article>
+        <article class="skill-card glass"><span class="skill-number">03</span><h3>AI applications</h3><p>LLM integration, document retrieval, and structured meeting intelligence.</p><ul class="tags"><li>RAG</li><li>LangChain</li><li>FAISS</li><li>FastAPI</li><li>Groq LLM</li><li>Edge Functions</li></ul></article>
+        <article class="skill-card glass"><span class="skill-number">04</span><h3>Design & delivery</h3><p>User research, prototyping, project planning, and development tools.</p><ul class="tags"><li>Figma</li><li>Axure RP 10</li><li>ProjectLibre</li><li>Eclipse</li><li>MySQL Workbench</li><li>Git</li><li>GitHub</li><li>Vercel</li><li>Railway</li><li>Neon</li></ul></article>
+      </div>
+    </section>
 
-      <section id="experience" class="experience shell">
-        <div class="experience-heading"><div><p class="overline">Professional experience</p><h2>Built across product, data, and operations.</h2></div><p>Hands-on roles in Malaysia, Singapore, and Dubai—spanning front-end delivery, process design, and data systems.</p></div>
-        <div class="experience-cards">
-          <article class="experience-card"><div class="experience-period"><span>01</span><p>Jan 2025<br/>Feb 2026</p></div><div class="experience-role"><p class="experience-kind">Data & automation</p><h3>Data Developer</h3><p class="company">Maybolle Business Management LLC-FZ <span>· Dubai</span></p></div><div class="experience-impact"><p>Created Python and SQL extraction scripts, scheduled data workflows, validation and auditing processes, and internal tracking systems.</p><div><span>Python</span><span>SQL</span><span>Automation</span></div></div></article>
-          <article class="experience-card"><div class="experience-period"><span>02</span><p>Oct 2024<br/>Jan 2025</p></div><div class="experience-role"><p class="experience-kind">Systems & process</p><h3>Junior Process System Administrator & Designer</h3><p class="company">Real In Bound Company <span>· Singapore</span></p></div><div class="experience-impact"><p>Designed business-process systems, shipped front-end features, integrated APK automation, and built an ID-card recognition and data-extraction system.</p><div><span>System design</span><span>Front-end</span><span>Automation</span></div></div></article>
-          <article class="experience-card"><div class="experience-period"><span>03</span><p>May 2024<br/>Sep 2024</p></div><div class="experience-role"><p class="experience-kind">Product & interface</p><h3>Software Engineer</h3><p class="company">Sinisana Technologies <span>· Malaysia</span></p></div><div class="experience-impact"><p>Redesigned and developed a company website, tested UI libraries, created animated assets, and contributed research, wireframes, and polished interfaces.</p><div><span>Astro</span><span>React</span><span>UI/UX</span></div></div></article>
-        </div>
-      </section>
+    <section id="about" class="section container about-grid">
+      <div class="about-text"><p class="eyebrow">04 / About Jun Hao</p><h2>Curious about the problem.<br>Careful with the details.</h2><p>I’m Jun Hao, also known as Yell Min Thu. I enjoy turning complex processes into software that people can understand and use with confidence.</p><p>My experience spans data retrieval and processing, business automation, front-end and back-end development, UI/UX design, and project planning. I completed my Higher National Diploma in Computing at Lithan Singapore with Overall Merit.</p><p>I learn quickly through practical projects, collaborate closely with others, and value clear communication, dependable delivery, and good coding practices.</p><div class="languages"><div><strong>English</strong><span>Fluent</span></div><div><strong>Mandarin Chinese</strong><span>Fluent</span></div><div><strong>Burmese</strong><span>Native / bilingual</span></div></div></div>
+      <div id="education" class="education-stack">
+        <article class="education-card glass"><p class="eyebrow">University of Waikato · New Zealand</p><h3>Future Computer Science student</h3><p>Planned start: 2027</p><div class="award"><strong>NZ$15,000</strong><p>Vice-Chancellor’s International Excellence Scholarship for South-East Asia</p><span>Scholarship offer dated 14 July 2026</span></div><a class="award-proof" href="assets/waikato-scholarship.png" target="_blank" rel="noopener noreferrer"><img src="assets/waikato-scholarship.png" alt="University of Waikato letter offering a $15,000 scholarship for study commencing in 2027" loading="lazy"><span>Read the original award letter ↗</span></a></article>
+        <article class="education-card glass"><p class="eyebrow">Lithan Singapore · 2022–2025</p><h3>Higher National Diploma in Computing</h3><p>Software Development & Testing · Pearson UK</p><span class="merit">Overall Merit</span></article>
+      </div>
+    </section>
 
-      <section class="contact shell"><div class="contact-profile"><img src="assets/thu-profile.png" alt="Jun Hao in Bangkok" /><div><p class="overline">Start a conversation</p><span>Jun Hao · Bangkok, Thailand</span></div></div><h2>Let’s make your next product <em>matter.</em></h2><div class="contact-links"><a class="email-link" href="mailto:yellminthu04@icloud.com">yellminthu04@icloud.com <span>↗</span></a><div><a class="social-link linkedin" href="https://www.linkedin.com/in/yell-min-thu-1298a0232/" target="_blank" rel="noreferrer"><svg class="brand-logo" viewBox="0 0 24 24" aria-hidden="true"><rect width="24" height="24" rx="3" fill="#0A66C2"/><circle cx="6.3" cy="8.1" r="1.55" fill="white"/><path fill="white" d="M5 10.1h2.6V19H5zm4.2 0h2.5v1.22h.04c.35-.66 1.2-1.57 2.47-1.57 2.64 0 3.13 1.74 3.13 4v5.25h-2.62v-4.66c0-1.11-.02-2.54-1.55-2.54-1.55 0-1.79 1.21-1.79 2.46V19H9.2z"/></svg>LinkedIn <span>↗</span></a><a class="social-link telegram" href="https://t.me/Jun_Hao001022" target="_blank" rel="noreferrer"><svg class="brand-logo" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="12" fill="#26A5E4"/><path fill="white" d="M5.1 11.66 18.58 6.46c.63-.23 1.17.15.96 1.12l-2.3 10.82c-.16.77-.63.96-1.28.6l-3.5-2.58-1.69 1.63c-.19.19-.35.35-.71.35l.25-3.56 6.48-5.85c.28-.25-.06-.39-.44-.14l-8.01 5.04-3.45-1.08c-.75-.24-.77-.75.15-1.11Z"/></svg>Telegram <span>↗</span></a></div></div></section>
-    </main>
-    <footer class="shell"><span>© 2026 Jun Hao</span><span>Full-stack engineer · AI builder</span><span>Bangkok, Thailand</span></footer>
-    <script src="projects.js"></script>
-  </body>
+    <section id="contact" class="section container">
+      <div class="contact-card glass"><div><p class="eyebrow">05 / Let’s connect</p><h2>Have a role or project in mind?</h2><p>I’d be glad to discuss where my engineering, AI, and interface skills could contribute.</p><a class="contact-email" href="mailto:yellminthu04@icloud.com">yellminthu04@icloud.com <span aria-hidden="true">↗</span></a></div><div class="contact-side"><a class="social-link" href="https://github.com/JunHaoyell" target="_blank" rel="noopener noreferrer">GitHub <span>↗</span></a><a class="social-link" href="https://www.linkedin.com/in/yell-min-thu-1298a0232/" target="_blank" rel="noopener noreferrer"><svg class="brand-logo" viewBox="0 0 24 24" aria-hidden="true"><rect width="24" height="24" rx="3" fill="#0A66C2"/><circle cx="6.3" cy="8.1" r="1.55" fill="white"/><path fill="white" d="M5 10.1h2.6V19H5zm4.2 0h2.5v1.22h.04c.35-.66 1.2-1.57 2.47-1.57 2.64 0 3.13 1.74 3.13 4v5.25h-2.62v-4.66c0-1.11-.02-2.54-1.55-2.54-1.55 0-1.79 1.21-1.79 2.46V19H9.2z"/></svg>LinkedIn <span>↗</span></a><a class="social-link" href="https://t.me/Jun_Hao001022" target="_blank" rel="noopener noreferrer"><svg class="brand-logo" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="12" fill="#26A5E4"/><path fill="white" d="M5.1 11.66 18.58 6.46c.63-.23 1.17.15.96 1.12l-2.3 10.82c-.16.77-.63.96-1.28.6l-3.5-2.58-1.69 1.63c-.19.19-.35.35-.71.35l.25-3.56 6.48-5.85c.28-.25-.06-.39-.44-.14l-8.01 5.04-3.45-1.08c-.75-.24-.77-.75.15-1.11Z"/></svg>Telegram <span>↗</span></a><p class="freelance">Freelance availability<br>30+ hours / week</p></div></div>
+      <div class="personal-links"><span>Elsewhere</span><a href="https://www.instagram.com/kerronei" target="_blank" rel="noopener noreferrer">Instagram ↗</a><a href="https://www.facebook.com/JunHaoYangkk" target="_blank" rel="noopener noreferrer">Facebook ↗</a></div>
+    </section>
+  </main>
+  <footer class="container site-footer"><span>© 2026 Jun Hao</span><span>Software engineering, with care.</span><a href="#main">Back to top ↑</a></footer>
+  <script src="projects.js"></script>
+</body>
 </html>
